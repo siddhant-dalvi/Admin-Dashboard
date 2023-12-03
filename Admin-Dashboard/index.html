@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Admin Dashboard</title>
+</head>
+<body>
+  <div class="admin-dashboard">
+    <div class="header">
+      <h1>Admin Dashboard</h1>
+      <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-bar">
+        <select class="filter-dropdown">
+          <option value="name">Name</option>
+          <option value="id">User ID</option>
+          <option value="email">Email</option>
+        </select>
+      </div>
+      <button class="add-person">
+        <img class="icon-img" src="add_person.png" alt="Add Person">
+      </button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th><input type="checkbox" class="select-all"></th>
+          <th>User ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="user-table-body">
+        <!-- User data will be dynamically populated here -->
+      </tbody>
+    </table>
+
+    <div class="pagination">
+      <!-- Pagination buttons will be dynamically populated here -->
+    </div>
+
+    <button class="delete-selected">Delete Selected</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

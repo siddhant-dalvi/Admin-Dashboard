@@ -1,0 +1,134 @@
+/* styles.css */
+.admin-dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.pagination button {
+  background-color: #28a745; 
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px; 
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #218838; 
+  transform: scale(1.1);
+}
+
+.delete-selected {
+  background-color: #dc3545; 
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-selected:hover {
+  background-color: #c82333;
+  transform: scale(1.1);
+}
+
+.add-person {
+  height: 35px;
+  width: 35px;
+  background-color: #ececec; 
+  border-radius: 6px; 
+  transition: background-color 0.3s;
+}
+
+.add-person:hover {
+  background-color: #49729e;
+  transform: scale(1.1);
+}
+
+.icon-img {
+  height: 22px;
+  width: 22px;
+}
+
+.edit {
+  background-color: #ececec; 
+  border-radius: 6px; 
+  transition: background-color 0.3s;
+}
+
+.edit:hover {
+  background-color: #d39e00; 
+  transform: scale(1.1);
+}
+
+.delete {
+  background-color: #ececec; 
+  border-radius: 6px; 
+  transition: background-color 0.3s;
+}
+
+.delete:hover {
+  background-color: #c82333; 
+  transform: scale(1.1);
+}
+
+
+.select-all {
+  margin: 0;
+  transform: scale(1.5); 
+}
+
+.select-row {
+  transform: scale(1.2); 
+}
+
+
+.pagination button {
+  transition: transform 0.2s ease-in-out;
+}
+
+
+
+.saveSelectedRows{
+  background: #808080;
+            
+}
